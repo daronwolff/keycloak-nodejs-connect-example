@@ -1,0 +1,19 @@
+{
+  "name": "keycloak-connect-example",
+  "version": "1.0.0",
+  "description": "This is a basic implementation of Express && keycloak server",
+  "main": "app.js",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "keycloak-connect": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "coffee -c app.coffee && node app.js"
+  },
+  "author": "daronwolff",
+  "license": "ISC"
+}
