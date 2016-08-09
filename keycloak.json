@@ -1,6 +1,6 @@
 {
   "realm": "demo",
-  "realm-public-key": "xxxxxx",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm7yPNKavu5weGxOKs3kn1lrBlf0xs/5V/Ox4imvqwSIJs6fRUTxliKXEWtX3m4SEKIj11TmppNQy1X2P/KcoXJ0MQFuoQhn/11pgvTIG3Q1ubrhvCJNYlyM/CposNzKQ6OjjvqIWZGCvkLObn3xQYRE5xV1Syh4EsSyyM1ZItg2id8FbeA+FPjsxt77W01jVp/UPwENVM7o/qNqWHbSpPvbY3xsL+ZeDKr/FnlNGERd/pPc6jdNMznpVUQ1UU8bgLwpAytXIZPeRZcgthVdVxYNaCRdHq8I8PNQT+t2uoHQv0fp2ERr3UjkLLTCUPsHF6CVPtFww4YKW+tcQwjup0QIDAQAB",
   "auth-server-url": "http://localhost:8080/auth",
   "ssl-required": "external",
   "resource": "user-portal",

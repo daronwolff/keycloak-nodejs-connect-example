@@ -25,6 +25,10 @@
     store: memoryStore
   }));
 
+  app.use(keycloak.middleware({
+    logout: '/logout'
+  }));
+
   app.get('/', function(req, resp) {
     return resp.send("Welcome to index go to <a href='/protected'>protected </a>  or <a href='/public'>public</a> section");
   });
@@ -34,7 +38,7 @@
   });
 
   app.get('/protected', keycloak.protect(), function(req, resp) {
-    return resp.send('You need logued to be in this section');
+    return resp.send('Hey, You are reading this section because you are logued :) <a href="/logout"> ¿Do you want log out? </a>');
   });
 
   app.listen(3000, function() {
